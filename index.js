@@ -73,7 +73,7 @@ setInterval(() => {
     
 }, 5000);
 
-setTimeout(() => {
-    mosquitto.disconnect();
-    hivemq.disconnect();
-}, 1000 * 60 * 60);
+// setTimeout(() => {
+//     mosquitto.disconnect();
+//     hivemq.disconnect();
+// }, 1000 * 60 * 60);
