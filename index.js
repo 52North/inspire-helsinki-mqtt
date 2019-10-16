@@ -38,7 +38,7 @@ config.mqttHosts.forEach(h => {
 
 var randomize = (v) => {
     var sign = (Math.random() >= 0.5);
-    return sign ? v + Math.random() / 66 : v - Math.random() / 100;
+    return sign ? v + Math.random() / 10 : v - Math.random() / 10;
 };
 
 setInterval(() => {
@@ -73,7 +73,7 @@ setInterval(() => {
     
 }, 5000);
 
-setTimeout(() => {
-    mosquitto.disconnect();
-    hivemq.disconnect();
-}, 1000 * 60 * 60);
+// setTimeout(() => {
+//     mosquitto.disconnect();
+//     hivemq.disconnect();
+// }, 1000 * 60 * 60);
