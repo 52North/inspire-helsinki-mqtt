@@ -1,0 +1,9 @@
+{
+    "mqttHosts": [
+        "mqtt://test.mosquitto.org",
+        "mqtt://broker.hivemq.com"
+    ],
+    "topic": "inspire-helsinki",
+    "owmAppId": "asdf",
+    "city": "Helsinki"
+}

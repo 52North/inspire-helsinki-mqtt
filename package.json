@@ -1,0 +1,21 @@
+{
+  "name": "inspire-helsinki-mqtt",
+  "version": "1.0.0",
+  "description": "mqtt publisher for weather data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inspire",
+    "mqtt",
+    "weather",
+    "real-time"
+  ],
+  "author": "Matthes Rieke (m.rieke@52north.org)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mqtt": "^3.0.0",
+    "openweather-apis": "^4.0.0"
+  }
+}

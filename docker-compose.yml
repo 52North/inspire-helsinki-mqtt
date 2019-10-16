@@ -1,0 +1,7 @@
+version: '3'
+services: 
+  inspire-helsinki:
+    image: inspire-helsinki-mqtt:latest
+    build: .
+    volumes:
+      - ./configuration.production.json:/usr/src/app/configuration.json
