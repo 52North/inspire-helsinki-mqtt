@@ -15,7 +15,7 @@
   "author": "Matthes Rieke (m.rieke@52north.org)",
   "license": "Apache-2.0",
   "dependencies": {
-    "mqtt": "^3.0.0",
+    "mqtt": "^4.3.7",
     "openweather-apis": "^4.0.0"
   }
 }
